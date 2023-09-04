@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.header__titulo {
+    font-size: 75px;
+    font-weight: 600;
+    color: #222;
+}
+
+.header__subtitulo {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+    color: #222;
+    font-style: italic;
+}
+
+.banner {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerimage{
+    border: #222 solid 3px;
+}
+
+.navegacao ul {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    list-style-type: none;
+    padding: 0;
+    color: #222;
+}
+
+.navegacao ul li {
+    position: relative;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+}
+
+.navegacao ul ul {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navegacao ul li:hover > ul {
+    display: block;
+}
+
+.navegacao ul ul li {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+.navegacao ul ul li a {
+    color: #222;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navegacao ul ul li a:hover {
+    color: #80D966;
+}
+
+.conteudo {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    margin-bottom: 100px;
+}
+
+h3 {
+    color: #222;
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+p {
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #949FA6;
+}
+
+h4 {
+    margin-left: 40px;
+    color: #949FA6;
+}
+
+.rodape {
+    font-family: 'Montserrat', sans-serif;
+    color: #949FA6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
